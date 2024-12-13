@@ -53,7 +53,17 @@ export default function App() {
 
           </View>
         </View>
+        <View style={styles.section}>
+          <Ionicons name="phone" size={30} color="#4A90E2" />
+          <View style={styles.sectionContent}>
+            <Text style={styles.sectionTitle}>Contact</Text>
+            <Text style={styles.sectionDetails}>
+              
+          +1(668)-5241
+            </Text>
 
+          </View>
+        </View>
       </ScrollView>
     </>
   );
