@@ -16,14 +16,14 @@ export default function App() {
           <Text style={styles.profileInfo}>Student</Text>
         </View>
         <View style={styles.section}>
-        <MaterialIcons name="school" size={30} color="#4A90E2" />
-        <View style={styles.sectionContent}>
-          <Text style={styles.sectionTitle}>Study</Text>
-          <Text style={styles.sectionDetails}>
-            At Winnipeg University
-          </Text>
+          <MaterialIcons name="school" size={30} color="#4A90E2" />
+          <View style={styles.sectionContent}>
+            <Text style={styles.sectionTitle}>Study</Text>
+            <Text style={styles.sectionDetails}>
+              At Winnipeg University
+            </Text>
+          </View>
         </View>
-    </View>
         <View style={styles.section}>
           <MaterialIcons name="stars" size={30} color="#4A90E2" />
           <View style={styles.sectionContent}>
@@ -53,16 +53,7 @@ export default function App() {
 
           </View>
         </View>
-        <View style={styles.section}>
-          <Ionicons name="phone" size={30} color="#4A90E2" />
-          <View style={styles.sectionContent}>
-            <Text style={styles.sectionTitle}>Contact Number</Text>
-            <Text style={styles.sectionDetails}>
-              +1-(668)-5241
-            </Text>
 
-          </View>
-        </View>
       </ScrollView>
     </>
   );
@@ -74,7 +65,7 @@ const styles = StyleSheet.create({
     height: 80,
     justifyContent: "center",
     alignItems: "center",
-    paddingTop:30,
+    paddingTop: 30,
   },
   headerText: {
     color: "white",
